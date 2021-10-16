@@ -2,3 +2,5 @@
 ORB SLAM3 running using live data from a stereo luxinous DepthAI chip
 
 Modified from the windows version (https://github.com/rexdsp/ORB_SLAM3_Windows) of ORB_SLAM3 https://github.com/UZ-SLAMLab/ORB_SLAM3 to integrate the luxinous API https://github.com/luxonis/depthai-core
+
+Requires OpenCV4, testign on Win10, Visual Studio 2019.
