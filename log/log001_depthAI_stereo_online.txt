@@ -1,0 +1,68 @@
+ORB-SLAM3 stereo_depthAI_online ./Vocabulary/ORBvoc.txt ./stereo-online.yaml stereo_depthAI_online
+file name: stereo_depthAI_online
+Starting DepthAI Pipeline
+	Sources
+	Outputs
+	Stream Names
+	Properties
+	Links
+	Init Device
+	Queues
+Create SLAM Object
+
+ORB-SLAM3 Copyright (C) 2017-2020 Carlos Campos, Richard Elvira, Juan J. Gómez, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+ORB-SLAM2 Copyright (C) 2014-2016 Raúl Mur-Artal, José M.M. Montiel and Juan D. Tardós, University of Zaragoza.
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See LICENSE.txt.
+
+Input sensor was set to: Stereo
+
+Loading ORB Vocabulary. This could take a while...
+Attempting open at: ./Vocabulary/ORBvoc.txt
+Vocabulary loaded!
+
+Creation of new map with id: 0
+Creation of new map with last KF id: 0
+Seq. Name: 
+
+Camera Parameters: 
+- fx: 512.553
+- fy: 512.603
+- cx: 603.074
+- cy: 395.526
+- bf: 74.3202
+- k1: 0.542552
+- k2: -0.0255114
+- p1: 0.000126378
+- p2: -0.000482435
+- fps: 30
+- color order: RGB (ignored if grayscale)
+
+ORB Extractor Parameters: 
+- Number of Features: 1200
+- Scale Levels: 8
+- Scale Factor: 1.2
+- Initial Fast Threshold: 10
+- Minimum Fast Threshold: 3
+
+Depth Threshold (Close/Far Points): 5.075
+LM: Active map reset recieved
+LM: Active map reset, waiting...
+LM: Reseting current map in Local Mapping...
+LM: End reseting Local Mapping...
+LM: Reset free the mutex
+LM: Active map reset, Done!!!
+mnFirstFrameId = 0
+mnInitialFrameId = 0
+0 Frames set to lost
+Starting Processing Loop
+First KF:0; Map init KF:0
+New Map created with 243 points
+mpLoopCloser is not finished
+
+Saving trajectory to log/f_stereo_depthAI_online.txt ...
+
+End of saving trajectory to log/f_stereo_depthAI_online.txt ...
+
+Saving keyframe trajectory to log/kf_stereo_depthAI_online.txt ...
