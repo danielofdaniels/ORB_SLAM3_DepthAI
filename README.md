@@ -5,10 +5,14 @@ Modified from the windows version (https://github.com/rexdsp/ORB_SLAM3_Windows) 
 
 Dependencies:
   - OpenCV 4 (tested with 4.5.3)
-  - cmake >= 3.4
-  - depthai-core & depthai-opencv dlls (https://github.com/luxonis/depthai-core)
+  - depthai-core (https://github.com/luxonis/depthai-core)
+Eigen, g20, & pangolin and required but pre-packaged thanks to the windows implementation this is derived from. By default the vs project looks for the depthai-core folder in the parent folder to the project. 
 
-Eigen, g20, & pangolin and required but pre-packaged thanks to the windows implementation this is derived from. 
+
+Usage:
+[Path to exe] stereo_depthAI_online [path to ORC vocabulary (included)] [Path to config yaml]
+An example is given in depthAI_online.bat
+
 
 
 TODO:
